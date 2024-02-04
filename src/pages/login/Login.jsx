@@ -9,10 +9,6 @@ function Login() {
     check1: {
       nome: 'teste', 
       senha: 'teste123'
-    },
-    check2: {
-      nome: 'gaby', 
-      senha: 'gaby123'
     }
   }
 
