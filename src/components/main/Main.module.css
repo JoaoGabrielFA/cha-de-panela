@@ -1,0 +1,42 @@
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Satisfy", cursive;
+}
+
+.bannerContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  /* border: 1px solid red; */
+}
+
+.bannerContent_card{
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.bannerContent_card_img{
+  /* border: 1px solid blue; */
+  height: 100%;
+  aspect-ratio: 3/4;
+  background-size: cover;
+  border-radius: 10%;
+  border: 3px solid rgb(243, 114, 135);
+}
+
+.bannerContent_card_label{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.bannerContent_title{
+  font-size: 1.5rem;
+  text-align: center;
+}

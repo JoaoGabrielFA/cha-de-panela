@@ -1,0 +1,32 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(241, 203, 146);
+  border-top: 10px solid orange;
+}
+
+.info_local{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(167, 108, 0);
+}
+
+
+.info_data{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(165, 42, 93);
+}
+
+.casa{
+  position: absolute;
+  margin-top: -160px;
+  width: 180px;
+  height: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
