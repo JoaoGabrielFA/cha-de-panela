@@ -1,0 +1,56 @@
+.sandwich {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 123, 142);;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  transition: .3s;
+  z-index: 1;
+}
+
+.sandwich.active {
+  width: 3400px;
+  height: 3400px;
+}
+
+.sandwichButton,
+.sandwichButton::before,
+.sandwichButton::after {
+  width: 30px;
+  border-top: 3px solid #FFF;
+
+}
+
+.sandwichButton {
+  cursor: pointer;
+}
+
+.sandwichButton::before,
+.sandwichButton::after {
+  content: '';
+  display: block;
+  margin-top: 6px;
+  top: -9px;
+  transition: 0.3s;
+}
+
+.sandwichButton.active {
+  border-color: #00000000;
+}
+
+.sandwichButton.active::before {
+  border-color: #ffffff;
+  transform: rotate(-45deg);
+}
+
+.sandwichButton.active::after {
+  border-color: #ffffff;
+  position: relative;
+  transform: rotate(45deg);
+}

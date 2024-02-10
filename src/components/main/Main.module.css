@@ -1,42 +1,18 @@
 .banner{
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 2rem;
-  font-family: "Satisfy", cursive;
-}
-
-.bannerContent{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: calc(100% - 25px);
-  width: calc(100% - 25px);
-  /* border: 1px solid red; */
-}
-
-.bannerContent_card{
-  width: 50%;
-  /* border: 1px solid black; */
-}
-
-.bannerContent_card_img{
-  /* border: 1px solid blue; */
-  height: 100%;
-  aspect-ratio: 3/4;
+  align-items: start;
+  width: 100vw;
+  aspect-ratio: 9/16;
+  background-image: url(https://scontent.fpoa11-1.fna.fbcdn.net/v/t1.15752-9/422168518_394559826592392_2647263889660345052_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=PZRIMkDcaxsAX9uWyX1&_nc_ht=scontent.fpoa11-1.fna&oh=03_AdTtF8RvO75UMWHDUrvzFkvqHCpwqFopJQdmIVmh8wrsIQ&oe=65EE200F);
   background-size: cover;
-  border-radius: 10%;
-  border: 3px solid rgb(243, 114, 135);
+  background-position: center;
 }
 
-.bannerContent_card_label{
-  width: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.bannerContent_title{
-  font-size: 1.5rem;
-  text-align: center;
+.bannerTitle{
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-top: 20px;
 }

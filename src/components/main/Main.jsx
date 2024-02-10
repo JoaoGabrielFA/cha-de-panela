@@ -16,25 +16,13 @@ function Main() {
 
   return (
     <>
-    <Header/>
-    <main className={styles.banner}>
-      <div className={styles.bannerContent}>
-        <div className={styles.bannerContent_card}>
-          <div className={styles.bannerContent_card_img}
-            style={{ backgroundImage: `url(${casal.dany.img})` }}
-          ></div>
-          <div className={styles.bannerContent_card_label}>{casal.dany.nome}</div>
-        </div>
-        <div className={styles.bannerContent_title}>Chá de Panela</div>
-        <div className={styles.bannerContent_card}>
-          <div className={styles.bannerContent_card_img}
-            style={{ backgroundImage: `url(${casal.riquelme.img})` }}
-          ></div>
-          <div className={styles.bannerContent_card_label}>{casal.riquelme.nome}</div>
-        </div>
-      </div>
-    </main>
-    <Footer/>
+      <Header />
+      <main className={styles.banner}>
+        <span className={styles.bannerTitle}>
+          Bem vindos ao nosso chá
+        </span>
+      </main>
+      <Footer />
     </>
   )
 }
