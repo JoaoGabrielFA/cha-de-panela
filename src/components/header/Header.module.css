@@ -80,6 +80,10 @@
 /*! CATEGORIES */
 
 .categories{
+  display: none;
+}
+
+.categories.active{
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
