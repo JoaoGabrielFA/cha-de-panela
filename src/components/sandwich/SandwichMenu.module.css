@@ -24,7 +24,6 @@
 .sandwichButton::after {
   width: 30px;
   border-top: 3px solid #FFF;
-
 }
 
 .sandwichButton {
