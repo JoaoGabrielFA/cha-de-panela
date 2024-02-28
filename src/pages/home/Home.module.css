@@ -1,4 +1,6 @@
 .main{
+  display: flex;
+  flex-direction: column;
   height: 77vh;
   margin: auto;
   margin-top: 7vh;
@@ -27,7 +29,9 @@
 }
 
 .text{
-  padding-top: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  padding: 20px 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -41,4 +45,22 @@
   position: absolute;
   height: 50%;
   color: #ed7b8e;
+}
+
+.textMessage{
+  color: #FFF;
+  background-color: orange;
+  text-align: center;
+  /* font-family: "Satisfy", cursive; */
+  padding: 80px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.seeMore{
+  padding: 20px 0;
+  color: #FFF;
+  background-color: #a76c00;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
