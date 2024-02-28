@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import styles from './Header.module.css';
 import SandwichMenu from '../sandwich/SandwichMenu';
-// import { IoBed } from "react-icons/io5";
-// import { FaToilet, FaCouch } from "react-icons/fa";
-// import { ImSpoonKnife } from "react-icons/im";
+import { IoBed } from "react-icons/io5";
+import { FaToilet, FaCouch } from "react-icons/fa";
+import { ImSpoonKnife } from "react-icons/im";
 
 function Header() {
   const [active, setActive] = useState(false);
