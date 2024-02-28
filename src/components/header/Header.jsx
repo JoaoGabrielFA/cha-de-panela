@@ -2,8 +2,8 @@ import { useState } from 'react';
 import styles from './Header.module.css';
 import SandwichMenu from '../sandwich/SandwichMenu';
 // import { IoBed } from "react-icons/io5";
-import { FaToilet, FaCouch } from "react-icons/fa";
-import { ImSpoonKnife } from "react-icons/im";
+// import { FaToilet, FaCouch } from "react-icons/fa";
+// import { ImSpoonKnife } from "react-icons/im";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -19,19 +19,19 @@ function Header() {
       </div>
       <div className={`${styles.categories} ${active ? styles.active : ''}`}>
         <div className={styles.category}>
-          <FaToilet />
+          {/* <FaToilet /> */}
           <span>Quarto</span>
         </div>
         <div className={styles.category}>
-          <FaToilet />
+          {/* <FaToilet /> */}
           <span>Banheiro</span>
         </div>
         <div className={styles.category}>
-          <FaCouch />
+          {/* <FaCouch /> */}
           <span>Sala</span>
         </div>
         <div className={styles.category}>
-          <ImSpoonKnife />
+          {/* <ImSpoonKnife /> */}
           <span>Cozinha</span>
         </div>
       </div>
