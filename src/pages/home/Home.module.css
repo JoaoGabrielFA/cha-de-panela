@@ -1,0 +1,44 @@
+.main{
+  height: 77vh;
+  margin: auto;
+  margin-top: 7vh;
+}
+
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.image{
+  width: 50%;
+  aspect-ratio: 3/4;
+  background-position: center;
+  background-size: cover;
+}
+
+.dany{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/418928085_353937430901712_7016147913901746622_n.jpg?stp=dst-jpg_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_ohc=CeXc-K6OwMQAX9zH4Oy&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTrfHS0uo1wwVrCA8mevadGReG_4epZp7yPmK-V50SKOw&oe=6606DDE3);
+}
+
+.riquelme{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/418977279_1115905559585511_8176185184151689397_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=j-s5_PJlqvsAX8755oJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRWfv30u8c8iLMHtVNEifwCycZsbktHTvOir9EjXtqNSA&oe=6606B6A2);
+}
+
+.text{
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.textPink{
+  color: #ed7b8e;
+  border-bottom: 3px solid #ed7b8e;
+}
+
+.banner svg{
+  position: absolute;
+  height: 50%;
+  color: #ed7b8e;
+}
