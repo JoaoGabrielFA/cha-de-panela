@@ -19,19 +19,19 @@ function Header() {
       </div>
       <div className={`${styles.categories} ${active ? styles.active : ''}`}>
         <div className={styles.category}>
-          {/* <FaToilet /> */}
+          <IoBed />
           <span>Quarto</span>
         </div>
         <div className={styles.category}>
-          {/* <FaToilet /> */}
+          <FaToilet />
           <span>Banheiro</span>
         </div>
         <div className={styles.category}>
-          {/* <FaCouch /> */}
+          <FaCouch />
           <span>Sala</span>
         </div>
         <div className={styles.category}>
-          {/* <ImSpoonKnife /> */}
+          <ImSpoonKnife />
           <span>Cozinha</span>
         </div>
       </div>
