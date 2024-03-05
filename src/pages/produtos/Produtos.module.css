@@ -40,14 +40,14 @@
 }
 
 .produto_parcelado{
-  font-size: .8rem;
+  font-size: .6rem;
   font-weight: bold;
   color: #414141;
 }
 
 .produto_link{
   width: 95%;
-  height: 25px;
+  height: 30px;
   background-color: #ed7b8e;
   border-radius: 10px;
   font-size: 1.2rem;
