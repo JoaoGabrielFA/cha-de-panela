@@ -19,7 +19,7 @@ function Home() {
           <FaHeart size={64} />
         </section>
         <span className={styles.textMessage}>Contamos com a sua presença, no dia 20 de abril, na rua Honório Lemos Nº56</span>
-        <Link className={styles.seeMore} to={'/produtos'}>VER PRODUTOS</Link>
+        <Link className={styles.seeMore} to={'/produtos/todos'}>VER PRODUTOS</Link>
       </main>
       {/* <Footer /> */}
     </>
