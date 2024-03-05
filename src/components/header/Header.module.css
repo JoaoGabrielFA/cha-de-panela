@@ -2,7 +2,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   height: 7vh;
   width: 100%;
   background-color: rgb(237, 123, 142);
@@ -110,4 +110,38 @@
   font-size: 2rem;
   font-weight: bold;
   color: #FFF;
+}
+
+/*! CATEGORIAS */
+
+.categorias{
+  display: none;
+}
+
+.categorias.active{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 7vh;
+  gap: 10px;
+}
+
+.categoria{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #bc6170;
+  border-radius: 10px;
+  color: #FFF;
+  gap: 10px;
+}
+
+.categoria a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFF;
+  border-top: 1px solid #FFF;
 }
