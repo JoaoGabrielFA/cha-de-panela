@@ -1,0 +1,58 @@
+.produtos{
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  margin: auto;
+  margin-top: 7vh;
+  background-color: white;
+}
+
+.produto{
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background-color: #FFF;
+}
+
+.produto_img{
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-image: url(https://a-static.mlcdn.com.br/800x560/kit-2-cadeiras-reforcadas-estofadas-mesa-cozinha-luxo-linho-balaqui-decor/balaquiestofadosltda/15883002572/0c8eed182060d51829a03c5bb1b0e7b8.jpeg);
+}
+.produto_dados{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+
+.produto_titulo{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.produto_avista{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.produto_parcelado{
+  font-weight: bold;
+  color: #414141;
+}
+
+.produto_link{
+  width: 95%;
+  height: 50px;
+  background-color: #ed7b8e;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 150%;
+  color: #FFF;
+  text-decoration: none;
+}
