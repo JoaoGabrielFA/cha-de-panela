@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './Header.module.css';
 import SandwichMenu from '../sandwich/SandwichMenu';
 import { IoBed } from "react-icons/io5";
 import { FaToilet, FaCouch } from "react-icons/fa";
 import { ImSpoonKnife } from "react-icons/im";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
   const [linksCozinha, setLinksCozinha] = useState(false);
@@ -26,6 +26,12 @@ function Header() {
     setActive(!active);
   }
 
+  const location = useLocation();
+
+  useEffect(() => {
+    setActive(false);
+  }, [location]);
+
   return (
     <header className={`${styles.header} ${active ? styles.active : ''}`}>
       <div className={`${styles.sandwich} ${active ? styles.active : ''}`}>
@@ -36,10 +42,10 @@ function Header() {
           COZINHA
           {linksCozinha && (
             <>
-              <Link to="/produtos">Ver Todos</Link>
-              <Link to="/produtos">Talheres</Link>
-              <Link to="/produtos">Potes</Link>
-              <Link to="/produtos">Panelas</Link>
+              <Link to="/produtos/cozinha">Ver Todos</Link>
+              <Link to="/produtos/talheres">Talheres</Link>
+              <Link to="/produtos/potes">Potes</Link>
+              <Link to="/produtos/panelas">Panelas</Link>
             </>
           )}
         </div>
@@ -48,10 +54,10 @@ function Header() {
           SALA
           {linksSala && (
             <>
-              <Link to="/produtos">Ver Todos</Link>
-              <Link to="/produtos">Tapetes</Link>
-              <Link to="/produtos">Almofadas</Link>
-              <Link to="/produtos">Enfeites</Link>
+              <Link to="/produtos/sala">Ver Todos</Link>
+              <Link to="/produtos/tapetes">Tapetes</Link>
+              <Link to="/produtos/almofadas">Almofadas</Link>
+              <Link to="/produtos/enfeites">Enfeites</Link>
             </>
           )}
         </div>

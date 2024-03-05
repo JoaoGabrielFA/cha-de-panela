@@ -1,18 +1,39 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import styles from './Produtos.module.css';
 
 function Produtos() {
+  const {categoria} = useParams();
   return (
     <>
       <Header />
       <main className={styles.produtos}>
 
-        <span className={styles.produtos_titulo}>TODOS OS PRODUTOS</span>
+        <span className={styles.produtos_titulo}>Todos os produtos em '{categoria.toUpperCase()}'</span>
 
         <div className={styles.produtoT}>
           <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/41G3itFxggL._AC_SX425_.jpg')`}}></div>
           <span className={styles.produtoT_nome}>FACA</span>
+        </div>
+
+        <div className={styles.produtoT}>
+          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/71hX3Ooyf6L.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
+          <span className={styles.produtoT_nome}>FACA PARA CARNE</span>
+        </div>
+
+        <div className={styles.produtoT}>
+          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://http2.mlstatic.com/D_NQ_NP_2X_970186-MLB72868979753_112023-F.webp')`}}></div>
+          <span className={styles.produtoT_nome}>GARFO</span>
+        </div>
+
+        <div className={styles.produtoT}>
+          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/610dmsuE7AL.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
+          <span className={styles.produtoT_nome}>TAPETE "BEM-VINDO"</span>
+        </div>
+
+        <div className={styles.produtoT}>
+          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/71FhhgKok9L.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
+          <span className={styles.produtoT_nome}>ALMOFADA</span>
         </div>
 
         {/* <div className={styles.produto}>
