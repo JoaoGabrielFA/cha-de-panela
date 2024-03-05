@@ -14,8 +14,8 @@ function Home() {
           <span className={styles.text}>Bem vindos ao nosso&nbsp;
             <span className={styles.textPink}>Chá de Panela</span>
           </span>
-          {/* <div className={`${styles.image} ${styles.dany}`}></div>
-          <div className={`${styles.image} ${styles.riquelme}`}></div> */}
+          <div className={`${styles.image} ${styles.dany}`}></div>
+          <div className={`${styles.image} ${styles.riquelme}`}></div>
           <FaHeart size={64} />
         </section>
         <span className={styles.textMessage}>Contamos com a sua presença, no dia 20 de abril, na rua Honório Lemos Nº56</span>
