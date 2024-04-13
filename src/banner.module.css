@@ -4,7 +4,7 @@
   align-items: center;
   height: 7vh;
   width: 100%;
-  background-color: rgb(237, 123, 142);
+  background-color: #ed7b8e;
 }
 
 .header_title{
@@ -42,7 +42,7 @@
   aspect-ratio: 3/4;
   background-size: cover;
   border-radius: 10%;
-  border: 3px solid rgb(243, 114, 135);
+  border: 3px solid #f37287;
 }
 
 .bannerContent_card_label{

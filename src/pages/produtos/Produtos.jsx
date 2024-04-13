@@ -8,10 +8,8 @@ import { FaToilet } from "react-icons/fa";
 import { useState } from 'react';
 
 function Produtos() {
-  const { getCategoria } = useParams();
   const [categoria, setCategoria] = useState('quarto');
   const itens = Object.keys(data[categoria]);
-  console.log(data[categoria])
 
   return (
     <main className={styles.main}>
@@ -23,11 +21,11 @@ function Produtos() {
               <br />
               <br />
               {itens.map((item, id) => {
-                const itemData = data[categoria][item]; // Obter o objeto de dados para o item atual
+                const itemData = data[categoria][item];
                 return (
                   <div key={id} className={styles.linha}>
                     <span>-{item}</span>
-                    <span>{itemData.likes}</span> {/* Renderizar a propriedade 'likes' do objeto */}
+                    <span>{itemData.likes}</span>
                   </div>
                 );
               })}
@@ -36,9 +34,19 @@ function Produtos() {
         </div>
       </div>
       <div className={styles.buttons}>
-        <IoBed onClick={() => setCategoria('quarto')} />
-        <FaKitchenSet onClick={() => setCategoria('cozinha')} />
-        <FaToilet onClick={() => setCategoria('banheiro')} />
+        <div className={styles.button}>
+          <IoBed onClick={() => setCategoria('quarto')} />
+          <span>Quarto</span>
+        </div>
+        <div className={styles.button}>
+          <FaKitchenSet onClick={() => setCategoria('cozinha')} />
+          <span>Cozinha</span>
+        </div>
+        <div className={styles.button}>
+          <FaToilet onClick={() => setCategoria('banheiro')} />
+          <span>Banheiro</span>
+        </div>
+        
       </div>
       {/* <Header />
     <main className={styles.produtos}>

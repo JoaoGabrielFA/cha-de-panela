@@ -12,17 +12,30 @@ body {
   justify-content: space-between;
 }
 
-svg{
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  color: #ed7b8e;
+  width: 30%;
+  padding: 10px 0;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+
+.button svg{
   font-size: 3rem;
-  color: white;
-  filter: drop-shadow(1px 1px black);
+}
+
+.button span{
+  font-size: 1.5rem;
 }
 
 .buttons{
   display: flex;
-  width: 100%;
+  width: 95vw;
   height: 100px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
