@@ -1,0 +1,386 @@
+{
+  "produtos": [
+    {
+      "nome": "Panelas",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Talheres",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Copos",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pratos",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Refratário",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de Sobremesa",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de Jantar",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Taças",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de Potes",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Fruteira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Cesto de lixo",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Saleiro",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Açucareiro",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Assadeiras",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Bacias",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Térmica",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Cafeteira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jarra elétrica",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Chaleira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Coador",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Colher de silicone",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Frigideira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Descascador de legumes",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Escorredor de massa",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Escorredor de louça",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Ralador",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Liquidificador",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Leiteira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Luva térmica",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Batedeira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Mixer",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pano de prato",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pano de chão",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pegador",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Concha",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Peneira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Funil",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pipoqueira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Toalha de mesa",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Xícaras",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pires",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Porta temperos",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Potes de vidro",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Puxa saco",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Rodinho de pia",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Torradeira",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Suporte de detergente e esponja",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Suporte para filtro de café",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Tábua de carne",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Tesoura de cozinha",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de facas",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jarra de suco",
+      "categoria": "cozinha",
+      "nomes": []
+   
+
+ },
+    {
+      "nome": "Vassoura",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Rodo",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Pá",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Panela de pressão",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Espremedor",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Abridor de garrafa",
+      "categoria": "cozinha",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de tapetes",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Limpador de vaso",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Cantoneira para xampu",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Cesto de roupa",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Porta cotonete",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Porta escova de dente",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Saboneteira",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Toalha de rosto",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Toalha de banho",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Mopi giratório",
+      "categoria": "banheiro",
+      "nomes": []
+    },
+    {
+      "nome": "Tapetes",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de cama",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Jogo de lençol",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Cortina",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Cobredom",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Mantas",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Colcha",
+      "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Travesseiro",
+      "categoria": "quarto",
+      "nomes": []
+    }
+  ]
+}

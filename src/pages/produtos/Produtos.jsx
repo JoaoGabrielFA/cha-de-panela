@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import styles from './Produtos.module.css';
-import data from '../../data/list.json';
+import data from '../../data/api.json';
 import { IoBed } from "react-icons/io5";
 import { FaKitchenSet } from "react-icons/fa6";
 import { FaToilet } from "react-icons/fa";
@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 function Produtos() {
   const [categoria, setCategoria] = useState('quarto');
-  const itens = Object.keys(data[categoria]);
+  const itens = data.produtos;
 
   return (
     <main className={styles.main}>
@@ -21,13 +21,16 @@ function Produtos() {
               <br />
               <br />
               {itens.map((item, id) => {
-                const itemData = data[categoria][item];
-                return (
-                  <div key={id} className={styles.linha}>
-                    <span>-{item}</span>
-                    <span>{itemData.likes}</span>
-                  </div>
-                );
+                if (item.categoria === categoria) {
+                  return (
+                    <div key={id} className={styles.linha}>
+                      <span>-{item.nome}</span>
+                      <span>{item.nomes.length}</span>
+                    </div>
+                  );
+                } else {
+                  return null; 
+                }
               })}
             </div>
           </div>
@@ -47,18 +50,6 @@ function Produtos() {
           <span>Banheiro</span>
         </div>
       </div>
-      {/* <Header />
-    <main className={styles.produtos}>
-      <span className={styles.produtos_titulo}>Todos os produtos em '{categoria.toUpperCase()}'</span>
-      {itens.map((item, id) => {
-        return (
-          <div className={styles.produto}>
-            <span className={styles.produto_nome} key={id}>{item}</span>
-            <span>{item.likes}</span>
-          </div>
-        )
-      })}
-    </main> */}
     </main>
   )
 }
