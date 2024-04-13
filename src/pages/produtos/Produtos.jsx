@@ -1,65 +1,56 @@
 import { Link, useParams } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import styles from './Produtos.module.css';
+import data from '../../data/list.json';
+import { IoBed } from "react-icons/io5";
+import { FaKitchenSet } from "react-icons/fa6";
+import { FaToilet } from "react-icons/fa";
+import { useState } from 'react';
 
 function Produtos() {
-  const {categoria} = useParams();
+  const { getCategoria } = useParams();
+  const [categoria, setCategoria] = useState('quarto');
+  const itens = Object.keys(data[categoria]);
+
   return (
-    <>
-      <Header />
-      <main className={styles.produtos}>
-
-        <span className={styles.produtos_titulo}>Todos os produtos em '{categoria.toUpperCase()}'</span>
-
-        <div className={styles.produtoT}>
-          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/41G3itFxggL._AC_SX425_.jpg')`}}></div>
-          <span className={styles.produtoT_nome}>FACA</span>
-        </div>
-
-        <div className={styles.produtoT}>
-          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/71hX3Ooyf6L.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
-          <span className={styles.produtoT_nome}>FACA PARA CARNE</span>
-        </div>
-
-        <div className={styles.produtoT}>
-          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://http2.mlstatic.com/D_NQ_NP_2X_970186-MLB72868979753_112023-F.webp')`}}></div>
-          <span className={styles.produtoT_nome}>GARFO</span>
-        </div>
-
-        <div className={styles.produtoT}>
-          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/610dmsuE7AL.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
-          <span className={styles.produtoT_nome}>TAPETE "BEM-VINDO"</span>
-        </div>
-
-        <div className={styles.produtoT}>
-          <div className={styles.produtoT_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/71FhhgKok9L.__AC_SX300_SY300_QL70_ML2_.jpg')`}}></div>
-          <span className={styles.produtoT_nome}>ALMOFADA</span>
-        </div>
-
-        {/* <div className={styles.produto}>
-          <div className={styles.produto_img} https://a-static.mlcdn.com.br/800x560/kit-2-cadeiras-reforcadas-estofadas-mesa-cozinha-luxo-linho-balaqui-decor/balaquiestofadosltda/15883002572/0c8eed182060d51829a03c5bb1b0e7b8.jpeg')` }}></div>
-          <div className={styles.produto_dados}>
-            <span className={styles.produto_titulo}>KIT 2 Cadeiras</span>
-            <span className={styles.produto_loja}>por Magazine Luiza</span>
-            <span className={styles.produto_avista}>R$278,70</span>
-            <span className={styles.produto_parcelado}>ou R$ 316,71 em 3x de R$ 105,57 sem juros</span>
-            <Link className={styles.produto_link} target='_blank' to={'https://www.magazineluiza.com.br/kit-2-cadeiras-reforcadas-estofadas-mesa-cozinha-luxo-linho-balaqui-decor/p/dg77bhd907/mo/mcad/'}>Ver Produto</Link>
+    <main className={styles.main}>
+      <div className={styles.moldura}>
+        <div className={styles.paper}>
+          <div className={styles.pattern}>
+            <div className={styles.content}>
+              {categoria.charAt(0).toUpperCase() + categoria.slice(1)}
+              <br />
+              <br />
+              {itens.map((item, id) => {
+                return (
+                  <div>
+                    <span key={id}>{item}</span>
+                    <span>{item.likes}</span>
+                  </div>
+                )
+              })}
+            </div>
           </div>
         </div>
-
-        <div className={styles.produto}>
-          <div className={styles.produto_img} style={{ backgroundImage: `url('https://m.media-amazon.com/images/I/71S5pC0KigL._AC_SX425_.jpg')` }}></div>
-          <div className={styles.produto_dados}>
-            <span className={styles.produto_titulo}>Torneira para Pia de Cozinha</span>
-            <span className={styles.produto_loja}>por Amazon</span>
-            <span className={styles.produto_avista}>R$209,90</span>
-            <span className={styles.produto_parcelado}>em até 4x R$ 52,49 sem juros</span>
-            <Link className={styles.produto_link} target='_blank' to={'https://www.amazon.com.br/Torneira-Cozinha-Docol-00801306-Cromado/dp/B0792ND5FD/ref=asc_df_B0792ND5FD/?tag=googleshopp00-20&linkCode=df0&hvadid=379707889890&hvpos=&hvnetw=g&hvrand=5456916210847802054&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031419&hvtargid=pla-810604235693&psc=1&mcid=5073fe3ed684304f9477929582ea3b2c'}>Ver Produto</Link>
+      </div>
+      <div className={styles.buttons}>
+        <IoBed onClick={() => setCategoria('quarto')} />
+        <FaKitchenSet onClick={() => setCategoria('cozinha')} />
+        <FaToilet onClick={() => setCategoria('banheiro')} />
+      </div>
+      {/* <Header />
+    <main className={styles.produtos}>
+      <span className={styles.produtos_titulo}>Todos os produtos em '{categoria.toUpperCase()}'</span>
+      {itens.map((item, id) => {
+        return (
+          <div className={styles.produto}>
+            <span className={styles.produto_nome} key={id}>{item}</span>
+            <span>{item.likes}</span>
           </div>
-        </div> */}
-      </main>
-    </>
-
+        )
+      })}
+    </main> */}
+    </main>
   )
 }
 
