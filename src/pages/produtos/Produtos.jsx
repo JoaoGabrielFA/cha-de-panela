@@ -46,7 +46,6 @@ function Produtos() {
           <FaToilet onClick={() => setCategoria('banheiro')} />
           <span>Banheiro</span>
         </div>
-        
       </div>
       {/* <Header />
     <main className={styles.produtos}>
