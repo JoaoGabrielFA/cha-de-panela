@@ -11,6 +11,7 @@ function Produtos() {
   const { getCategoria } = useParams();
   const [categoria, setCategoria] = useState('quarto');
   const itens = Object.keys(data[categoria]);
+  console.log(data[categoria])
 
   return (
     <main className={styles.main}>
@@ -22,12 +23,13 @@ function Produtos() {
               <br />
               <br />
               {itens.map((item, id) => {
+                const itemData = data[categoria][item]; // Obter o objeto de dados para o item atual
                 return (
-                  <div>
-                    <span key={id}>{item}</span>
-                    <span>{item.likes}</span>
+                  <div key={id} className={styles.linha}>
+                    <span>-{item}</span>
+                    <span>{itemData.likes}</span> {/* Renderizar a propriedade 'likes' do objeto */}
                   </div>
-                )
+                );
               })}
             </div>
           </div>

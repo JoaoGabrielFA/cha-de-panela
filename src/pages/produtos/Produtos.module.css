@@ -73,6 +73,11 @@ svg{
   word-spacing: 5px;
 }
 
+.linha{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
