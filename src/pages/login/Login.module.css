@@ -4,7 +4,7 @@
   align-items: end;
   width: 100vw;
   height: 100vh;
-  background-image: url(https://scontent.fpoa11-1.fna.fbcdn.net/v/t1.15752-9/422168518_394559826592392_2647263889660345052_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=PZRIMkDcaxsAX9uWyX1&_nc_ht=scontent.fpoa11-1.fna&oh=03_AdTtF8RvO75UMWHDUrvzFkvqHCpwqFopJQdmIVmh8wrsIQ&oe=65EE200F);
+  background-image: url(https://scontent.fpoa34-1.fna.fbcdn.net/v/t1.15752-9/422168518_394559826592392_2647263889660345052_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFNBKagXmzdDl4eGdZ3w8hNTzfDj3YDz3JPN8OPdgPPcpIO-K5bQbOK7DY0D5pLBLJrTJeXQc9cvtdjFp6D5b6T&_nc_ohc=Qi32GESBk3kAb5zhzG9&_nc_ht=scontent.fpoa34-1.fna&oh=03_AdVlWZa4Pg_3f_GnvPKWxUYhDSt0eXI7EL80cyzbmG9Qhw&oe=664247CF);
   background-size: 125%;
   background-position: right;
 }
@@ -16,10 +16,10 @@
   align-items: center;
   gap: 10px;
   width: 100vw;
-  margin-bottom: 10vh;
+  padding: 10vh 0;
   /* aspect-ratio: 3/5; */
   /* border: 1px solid white; */
-  /* background-color: rgba(128, 128, 128, 0.36); */
+  background: linear-gradient(#ffffff00 20%, #8080805c 50%);
 }
 
 .login_form_title{
@@ -46,6 +46,7 @@
 .login_form_input::placeholder{
   color: white;
   font-size: 1rem;
+  text-align: center;
 }
 
 .login_form_input:focus::placeholder {

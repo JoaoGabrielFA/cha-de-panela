@@ -5,32 +5,34 @@ import styles from './Login.module.css';
 function Login() {
   const navigate = useNavigate();
 
-  const check = {
-    check1: {
-      nome: 'teste', 
-      senha: 'teste123'
-    }
-  }
+  // const check = {
+  //   check1: {
+  //     nome: 'teste', 
+  //     senha: 'teste123'
+  //   }
+  // }
 
   const [nome, setNome] = useState('');
-  const [senha, setSenha] = useState('');
+  // const [senha, setSenha] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    localStorage.setItem('nome', nome);
+    navigate('/home');
+
+    // let acessoPermitido = false;
   
-    let acessoPermitido = false;
+    // for (const key in check) {
+    //   if (check[key].nome === nome && check[key].senha === senha) {
+    //     acessoPermitido = true;
+    //     navigate('/home');
+    //     break; 
+    //   }
+    // }
   
-    for (const key in check) {
-      if (check[key].nome === nome && check[key].senha === senha) {
-        acessoPermitido = true;
-        navigate('/home');
-        break; 
-      }
-    }
-  
-    if (!acessoPermitido) {
-      alert('ACESSO NEGADO');
-    }
+    // if (!acessoPermitido) {
+    //   alert('ACESSO NEGADO');
+    // }
   };
   
 
@@ -41,13 +43,13 @@ function Login() {
         <input
           className={styles.login_form_input}
           type='text'
-          placeholder='Nome'
+          placeholder='QUAL O SEU NOME?'
           value={nome}
           onChange={(e) => setNome(e.target.value)}
           required
           autoComplete='username'
         ></input>
-        <input
+        {/* <input
           className={styles.login_form_input}
           type='password'
           placeholder='Senha'
@@ -55,7 +57,7 @@ function Login() {
           onChange={(e) => setSenha(e.target.value)}
           required
           autoComplete='current-password'
-        ></input>
+        ></input> */}
         <button className={styles.login_form_button} type='submit'>
           ENTRAR
         </button>

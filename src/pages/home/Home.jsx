@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className={styles.main}>
         <section className={styles.banner}>
           <span className={styles.text}>Bem vindos ao nosso&nbsp;
