@@ -4,7 +4,7 @@ import styles from './Produtos.module.css';
 import data from '../../data/api.json';
 import { IoBed } from "react-icons/io5";
 import { FaKitchenSet } from "react-icons/fa6";
-import { FaToilet } from "react-icons/fa";
+import { FaToilet, FaBabyCarriage } from "react-icons/fa";
 import { useState } from 'react';
 
 function Produtos() {
@@ -48,6 +48,10 @@ function Produtos() {
         <div className={styles.button}>
           <FaToilet onClick={() => setCategoria('banheiro')} />
           <span>Banheiro</span>
+        </div>
+        <div className={styles.button}>
+          <FaBabyCarriage onClick={() => setCategoria('alice')} />
+          <span>Alice</span>
         </div>
       </div>
     </main>
