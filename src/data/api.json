@@ -259,9 +259,7 @@
       "nome": "Jarra de suco",
       "categoria": "cozinha",
       "nomes": []
-   
-
- },
+    },
     {
       "nome": "Vassoura",
       "categoria": "cozinha",
@@ -380,6 +378,296 @@
     {
       "nome": "Travesseiro",
       "categoria": "quarto",
+      "nomes": []
+    },
+    {
+      "nome": "Fraldas P",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Fraldas M",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Fraldas G",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Lenço umedecido",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Sabonete",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Shampoo/condicionador",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Óleo para bebês",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Higiapele",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Pomada para assaduras",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Talco",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Cotonete",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Tesoura para bebê",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Aspirador nasal",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Toalha de banho",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Banheira",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Termômetro",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Fralda de pano",
+      "categoria": "higiene",
+      "nomes": []
+    },
+    {
+      "nome": "Body curto/comprido RN",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Body curto/comprido P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Body curto/comprido M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Body curto/comprido G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Calça (mijão) RN",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Calça (mijão) P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Calça (mijão) M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Calça (mijão) G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Conjunto (pagão) RN",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Conjunto (pagão) P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Conjunto (pagão) M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Conjunto (pagão) G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Macacão (tiptop) RN",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Macacão (tiptop) P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Macacão (tiptop) M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Macacão (tiptop) G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Casaquinhos de lã P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Casaquinhos de lã M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Casaquinhos de lã G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Meia RN",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Meia P",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Meia M",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Meia G",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Sapatinho diversos",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Touquinhas",
+      "categoria": "vestuario",
+      "nomes": []
+    },
+    {
+      "nome": "Babador",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Mamadeira",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Escova para mamadeira",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Talheres",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Pratinho",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Pano de boca",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Prendedor de chupeta",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Mordedor",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Kit berço",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Saquinhos para bebê",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Manta (cobertinha)",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Ninho para bebê",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Rolinho segura bebê",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Travesseiro",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Coberta (edredonzinho)",
+      "categoria": "acessorios",
+      "nomes": []
+    },
+    {
+      "nome": "Roupa de cama",
+      "categoria": "acessorios",
       "nomes": []
     }
   ]

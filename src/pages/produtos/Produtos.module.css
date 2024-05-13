@@ -12,33 +12,6 @@ body {
   justify-content: space-around;
 }
 
-.button{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #FFF;
-  color: #ed7b8e;
-  width: 24%;
-  padding: 10px 0;
-  box-shadow: 0px 0px 5px 0px #888;
-}
-
-.button svg{
-  font-size: 3rem;
-}
-
-.button span{
-  font-size: 1.3rem;
-}
-
-.buttons{
-  display: flex;
-  width: 95vw;
-  height: 100px;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .moldura{
   height: 80vh;
   overflow: auto;
@@ -90,9 +63,6 @@ body {
   justify-content: space-between;
 }
 
-
-
-
 .produtos{
   display: flex;
   flex-direction: column;
@@ -119,73 +89,53 @@ body {
   font-weight: bold;
 }
 
-/* .produto_img{
-  height: 100%;
-  aspect-ratio: 1/1;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+.folderButtons{
+  display: flex;
+  justify-content: space-between;
+  color: #ed7b8e;
+
 }
-.produto_dados{
+
+.folderButton{
+  background-color: #fff;
+  padding: 10px;
+  width: 50%;
+  font-size: 1.7rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.folderButton.desactive{
+  filter: brightness(70%);
+}
+
+.button{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 90%;
-  width: 90%;
-  margin: auto;
-}
-
-.produto_titulo{
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.produto_avista{
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-.produto_parcelado{
-  font-size: .6rem;
-  font-weight: bold;
-  color: #414141;
-}
-
-.produto_link{
-  width: 95%;
-  height: 30px;
-  background-color: #ed7b8e;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 150%;
-  color: #FFF;
-  text-decoration: none;
-}
-
-
-
-.produtoT{
-  display: flex;
-
-  height: 100px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 5px;
+  align-items: center;
   background-color: #FFF;
+  color: #ed7b8e;
+  width: 30%;
+  padding: 10px 0;
 }
 
-.produtoT_img{
-  height: 100%;
-  aspect-ratio: 1/1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.button svg{
+  font-size: 3rem;
 }
 
-.produtoT_nome{
-  width: 100%;
-  line-height: 400%;
-  text-align: center;
-} */
+.button span{
+  font-size: 1.5rem;
+}
+
+.buttons{
+  display: flex;
+  width: 95vw;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #FFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
