@@ -11,7 +11,7 @@ function Home() {
       {/* <Header /> */}
       <main className={styles.main}>
         <section className={styles.banner}>
-          <span className={styles.text}>Bem vindos ao nosso&nbsp;
+          <span className={styles.text}>{localStorage.getItem('nome_do_convidado_danyeriquelme').split(' ')[0]}, Bem vindo(a) ao nosso&nbsp;
             <span className={styles.textPink}>Chá de Panela</span>
           </span>
           <div className={`${styles.image} ${styles.dany}`}></div>

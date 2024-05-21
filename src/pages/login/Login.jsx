@@ -5,34 +5,12 @@ import styles from './Login.module.css';
 function Login() {
   const navigate = useNavigate();
 
-  // const check = {
-  //   check1: {
-  //     nome: 'teste', 
-  //     senha: 'teste123'
-  //   }
-  // }
-
   const [nome, setNome] = useState('');
-  // const [senha, setSenha] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    localStorage.setItem('nome', nome);
+    localStorage.setItem('nome_do_convidado_danyeriquelme', nome);
     navigate('/home');
-
-    // let acessoPermitido = false;
-  
-    // for (const key in check) {
-    //   if (check[key].nome === nome && check[key].senha === senha) {
-    //     acessoPermitido = true;
-    //     navigate('/home');
-    //     break; 
-    //   }
-    // }
-  
-    // if (!acessoPermitido) {
-    //   alert('ACESSO NEGADO');
-    // }
   };
   
 
@@ -49,15 +27,6 @@ function Login() {
           required
           autoComplete='username'
         ></input>
-        {/* <input
-          className={styles.login_form_input}
-          type='password'
-          placeholder='Senha'
-          value={senha}
-          onChange={(e) => setSenha(e.target.value)}
-          required
-          autoComplete='current-password'
-        ></input> */}
         <button className={styles.login_form_button} type='submit'>
           ENTRAR
         </button>

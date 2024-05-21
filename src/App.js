@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Login from './pages/login/Login';
@@ -12,9 +12,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route element={<Login />} path=''/>
-        <Route element={<Home />} path='/home'/>
-        <Route element={<Produtos />} path='/produtos/:categoria'/>
+      <Route
+          path="/"
+          element={
+            localStorage.getItem('nome_do_convidado_danyeriquelme') ? <Navigate to="/home" /> : <Login />
+          }
+        />
+        <Route element={<Home />} path='/home' />
+        <Route element={<Produtos />} path='/produtos/:categoria' />
       </Routes>
     </Router>
   );

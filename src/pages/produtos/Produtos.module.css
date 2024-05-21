@@ -63,6 +63,24 @@ body {
   justify-content: space-between;
 }
 
+.nomeDoProduto{
+  width: 250px;
+}
+
+.gerenciarProduto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 80px;
+}
+
+.remover, .adicionar{
+  font-size: 3rem;
+  line-height: 12px;
+  margin-right: -5px;
+}
+
 .produtos{
   display: flex;
   flex-direction: column;
