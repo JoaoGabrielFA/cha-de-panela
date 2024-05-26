@@ -1,26 +1,21 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 body {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.main{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.moldura{
-  height: 80vh;
+
+.moldura {
+  height: 90vh;
   overflow: auto;
 }
 
 /* styling paper */
 .paper {
-  width: 95vw;
-  min-height: calc(80vh - 80px);
+  width: 100vw;
+  min-height: calc(90vh - 80px);
   height: auto;
   margin: auto;
   position: relative;
@@ -37,7 +32,7 @@ body {
   position: absolute;
   top: 0;
   left: 40px;
-  background-color: rgba(255,0,0,0.6);
+  background-color: rgba(255, 0, 0, 0.6);
 }
 
 /* styling blue horizontal lines */
@@ -58,16 +53,16 @@ body {
   word-spacing: 5px;
 }
 
-.linha{
+.linha {
   display: flex;
   justify-content: space-between;
 }
 
-.nomeDoProduto{
+.nomeDoProduto {
   width: 250px;
 }
 
-.gerenciarProduto{
+.gerenciarProduto {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -75,59 +70,27 @@ body {
   width: 80px;
 }
 
-.remover, .adicionar{
+.remover,
+.adicionar {
   font-size: 3rem;
   line-height: 12px;
   margin-right: -5px;
 }
 
-.produtos{
+.buttons {
+  position: fixed; bottom: 0;
   display: flex;
-  flex-direction: column;
-  width: 95vw;
-  margin: auto;
-  margin-top: 7vh;
-  gap: 10px;
-}
-
-.produtos_titulo{
-  align-self: center;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.produto{
-  display: flex;
-  width: 100%;
-  height: 30px;
+  width: 100vw;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
   background-color: #FFF;
+  overflow: hidden;
+  border-top: 3px solid #ed7b8e;
 }
 
-.produto_nome{
-  font-weight: bold;
-}
-
-.folderButtons{
-  display: flex;
-  justify-content: space-between;
-  color: #ed7b8e;
-
-}
-
-.folderButton{
-  background-color: #fff;
-  padding: 10px;
-  width: 50%;
-  font-size: 1.7rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.folderButton.desactive{
-  filter: brightness(70%);
-}
-
-.button{
+.button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,23 +100,10 @@ body {
   padding: 10px 0;
 }
 
-.button svg{
+.button svg {
   font-size: 3rem;
 }
 
-.button span{
+.button span {
   font-size: 1.5rem;
-}
-
-.buttons{
-  display: flex;
-  width: 95vw;
-  height: 100px;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 10px;
-  background-color: #FFF;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  overflow: hidden;
 }
